@@ -17,14 +17,14 @@ Build script currently generates only solution
 
 #### 1. Requirements
 
-- [sqlite-jdbc-3.32.3.2.jar](https://www.visualstudio.com/products/visual-studio-express-vs)
+- [sqlite-jdbc-3.32.3.2.jar](https://github.com/xerial/sqlite-jdbc)
 
 #### 2. Steps
 
-1. [Download snapshot of this repository][repo-dl], unzip and open it
-2. Run `premake.bat` or `premake4.bat`
+1. [Download snapshot of this repository][SQLite-Encryption], unzip and open it
+2. Run 
 
-**Following these steps and building all binaries in their _Release_ versions took me ~2 minutes on my laptop.**
+**Following these steps and building all binaries in their out directory**
 
 
 ## Issues
@@ -50,7 +50,7 @@ For making contribution:
 2. Clone it
 
 ```
-    git clone https://github.com/wahabjawed/POS--Demo-Kotlin-.git
+    git clone https://github.com/wahabjawed/SQLite-Encryption.git
     cd dbEncrypt
 ```
 
@@ -63,5 +63,19 @@ use IntelliJ IDEA to open the project
 - [@wahabjawed](https://github.com/wahabjawed/)   [visit website](https://www.linkedin.com/in/abdul-wahab-47745163/)
 
 ## License
+
+Copyright 2020 Abdul Wahab
+
+Licensed under the MIT License, (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+       https://opensource.org/licenses/MIT
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 [[Back to top]](https://github.com/wahabjawed/SQLite-Encryption#index)
