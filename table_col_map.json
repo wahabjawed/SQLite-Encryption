@@ -1,0 +1,17 @@
+[{
+  "tableName": "Customer",
+  "primaryKey": "CustomerId",
+  "toEncrypt": [
+    "FirstName",
+    "LastName",
+    "Company"
+  ]},
+{
+  "tableName": "Employee",
+  "primaryKey": "EmployeeId",
+  "toEncrypt": [
+    "FirstName",
+    "LastName",
+    "Title"
+  ]
+}]
